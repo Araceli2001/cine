@@ -1,0 +1,141 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Nova Flat", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.nova-flat-regular {
+    font-family: "Nova Flat", system-ui;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+header {
+    z-index: 10;
+    position: static;
+    top:0;
+    left: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 200px;
+    transition: 0.5s ease;
+    background-color: rgb(18, 15, 11);
+}
+
+header .brand {
+    color: #8ad59a;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header .navigation {
+    position: static;
+}
+
+header .navigation .navigation-items a {
+    position: static;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: 0.3s ease;
+}
+header .navigation .navigation-items a:before {
+    content: '';
+    position: static;
+    background: #fff;
+    width: 0%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+}
+
+header .navigation .navigation-items a:hover:before {
+    width: 100%;
+}
+
+/* estlos formulario */
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+height: auto; /* Esto centra verticalmente en la página */
+}
+
+.formulario-container {
+background-color: #f0f0f0;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+width: 700px;
+}
+
+.formulario-container form div {
+margin-bottom: 15px;
+}
+
+.formulario-container label {
+display: block;
+margin-bottom: 5px;
+}
+
+.formulario-container input[type="text"],
+.formulario-container input[type="number"],
+.formulario-container input[type="url"] {
+width: calc(100% - 6px);
+padding: 8px;
+border-radius: 4px;
+border: 1px solid #ccc;
+}
+
+.formulario-container input[type="checkbox"] {
+margin-right: 5px;
+}
+
+.formulario-container button {
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 4px;
+padding: 10px 20px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+.formulario-container button:hover {
+background-color: #0056b3;
+}
+
+/* * para centar el texto de history */
+.custom-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* *******************FOOTER */
+footer {
+    background-color: #494444;
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+
+    .footer-container {
+        display: inline;
+    }
+
+    .footer-container img {
+    width: 100px;
+    height: auto;
+    margin: 0 20px; /* Espacio entre las imágenes */
+    }
+    .top {
+    margin-top: 15px;
+    }
